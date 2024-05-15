@@ -31,7 +31,7 @@ with open('data.json','r') as json_file:
 print("Successfully able to read data.json.")
 print(loaded_data)
 
-#
+# appends 'interests' list with new string values
 loaded_data['age'] = 34
 loaded_data['interests'].append('History')
 loaded_data['interests'].append('Gaming')
